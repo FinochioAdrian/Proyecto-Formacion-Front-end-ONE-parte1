@@ -4,6 +4,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>Barberia Alura</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
 
 
@@ -12,11 +13,20 @@
 
 <body>
   <header>
-    <h1 class="titulo-principal">
-      Barberia Alura
-    </h1>
+    <div class="caja">
+      <h1>
+          <img src="img/imagenes/logo.png">
+      </h1>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a> </li>
+              <li><a href="productos.html">Productos</a> </li>
+              <li><a href="contacto.html">Contactos</a> </li>
+          </ul>
+      </nav>
+  </div>
   </header>
-  
+  <main>
   <img id="banner" src="img/banner/banner.jpg" alt="" />
   <div class="principal">
     <h2 class="titulo-centralizado">Sobre la Barbería Alura</h2>
@@ -38,7 +48,7 @@
   <div class="diferenciales">
 
     <h3 class="titulo-centralizado">Diferenciales</h3>
-    <ul>
+    <ul class="ul-diferenciales">
       <li class="items">Atención personalizada a los clientes</li>
       <li class="items">Espacio diferenciado</li>
       <li class="items">Localización</li>
@@ -49,6 +59,7 @@
       alt="Peluquero retocando la barba del cliente">
 
   </div>
+</main>
 
 </body>
 
