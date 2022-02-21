@@ -19,7 +19,9 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
+    
 }
+
 
 nav a {
     text-transform: uppercase;
@@ -32,6 +34,7 @@ nav a {
 nav a:hover {
     color: #c78c19;
     text-decoration: underline #c78c19;
+    
 }
 
 /*main*/
@@ -108,4 +111,63 @@ footer hr {
 .by {
     color: #FFFFFF;
     font-size: 18px;
+}
+
+/* main contactos.html */
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 5px 0 10px;
+}
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox-label{
+    margin: 20px 0;
+
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s background, 1s transform;
+    cursor: pointer;
+}
+.enviar:hover{
+ background:darkorange;
+ transform: scale(1.2);
+ 
+}
+
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+td,th{
+    border: 1px solid #000;
+    padding: 8px 15px;
 }

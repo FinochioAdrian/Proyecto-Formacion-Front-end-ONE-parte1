@@ -67,18 +67,20 @@ em strong {
   font-size: 20px
 }
 
-
-.items {
-  font-style: italic;
-
-}
-
 .ul-diferenciales {
   display: inline-block;
   vertical-align: top;
   width: 20%;
   margin-right: 15%;
+  
 }
+
+.items {
+  font-style: italic;
+
+
+}
+
 
 .imagenDiferenciales {
   width: 50%;
