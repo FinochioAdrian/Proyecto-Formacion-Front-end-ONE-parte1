@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /*header*/
 header {
     background-color: #bbbbbb;
@@ -19,7 +22,7 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
-    
+
 }
 
 
@@ -34,10 +37,10 @@ nav a {
 nav a:hover {
     color: #c78c19;
     text-decoration: underline #c78c19;
-    
+
 }
 
-/*main*/
+/*main productos.html y genericos*/
 
 .productos {
     width: 940px;
@@ -123,11 +126,13 @@ form {
     margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 5px 0 10px;
 }
+
 .input-padron {
     display: block;
     margin: 0 0 20px;
@@ -135,12 +140,12 @@ form label, form legend {
     width: 50%;
 }
 
-.checkbox-label{
+.checkbox-label {
     margin: 20px 0;
 
 }
 
-.enviar{
+.enviar {
     width: 40%;
     padding: 15px 0;
     font-size: 18px;
@@ -152,22 +157,77 @@ form label, form legend {
     transition: 0.5s background, 1s transform;
     cursor: pointer;
 }
-.enviar:hover{
- background:darkorange;
- transform: scale(1.2);
- 
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+
 }
 
-table{
+table {
     margin: 40px 40px;
 }
-thead{
+
+thead {
     background: #555555;
     color: white;
     font-weight: bold;
 
 }
-td,th{
+
+td,
+th {
     border: 1px solid #000;
     padding: 8px 15px;
+}
+
+/* Css de Index.html (home) */
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    font-weight: bold;
+    clear: left;
+
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    
+
+}
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin:  0 0 2em;
+    text-align: center;
+}
+
+.imagenDiferenciales {
+    width: 60%;
+    
+}
+.video{
+    width: 560px;
+    margin: 1em auto;
 }
