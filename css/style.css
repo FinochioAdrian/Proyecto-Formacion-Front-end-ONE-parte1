@@ -172,7 +172,6 @@ thead {
     background: #555555;
     color: white;
     font-weight: bold;
-
 }
 
 td,
@@ -200,6 +199,7 @@ th {
     margin: 0 0 1em;
     font-weight: bold;
     clear: left;
+    
 
 }
 
@@ -255,6 +255,9 @@ th {
     display: inline-block;
     vertical-align: top;
 }
+.items::before{
+    content: "★";
+}
 .items{
     line-height: 1.5;
 }
@@ -264,7 +267,11 @@ th {
 }
 .imagen-diferenciales {
     width: 60%;
-    
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000 ;
+}
+.imagen-diferenciales:hover {
+    opacity: 0.3;
 }
 .video{
     width: 560px;
