@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*header*/
 header {
     background-color: #bbbbbb;
@@ -19,7 +23,7 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
-    
+
 }
 
 
@@ -34,10 +38,10 @@ nav a {
 nav a:hover {
     color: #c78c19;
     text-decoration: underline #c78c19;
-    
+
 }
 
-/*main*/
+/*main productos.html y genericos*/
 
 .productos {
     width: 940px;
@@ -114,7 +118,7 @@ footer hr {
 }
 
 /* main contactos.html */
-main {
+.main-contacto {
     width: 940px;
     margin: 0 auto;
 }
@@ -123,11 +127,13 @@ form {
     margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 5px 0 10px;
 }
+
 .input-padron {
     display: block;
     margin: 0 0 20px;
@@ -135,12 +141,12 @@ form label, form legend {
     width: 50%;
 }
 
-.checkbox-label{
+.checkbox-label {
     margin: 20px 0;
 
 }
 
-.enviar{
+.enviar {
     width: 40%;
     padding: 15px 0;
     font-size: 18px;
@@ -152,22 +158,218 @@ form label, form legend {
     transition: 0.5s background, 1s transform;
     cursor: pointer;
 }
-.enviar:hover{
- background:darkorange;
- transform: scale(1.2);
- 
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+
 }
 
-table{
+table {
     margin: 40px 40px;
 }
-thead{
+
+thead {
     background: #555555;
     color: white;
     font-weight: bold;
-
 }
-td,th{
+
+td,
+th {
     border: 1px solid #000;
     padding: 8px 15px;
+}
+
+/* Css de Index.html (home) */
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    font-weight: bold;
+    clear: left;
+
+
+}
+
+
+.principal p {
+    margin: 0 0 1em;
+
+    margin: 0 auto;
+
+}
+
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+
+
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.contenido-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items::before {
+    content: "★";
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items:first-child {
+    font-weight: bold;
+
+}
+
+.imagen-diferenciales {
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000;
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.3;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    margin: 3em auto;
+}
+
+@media screen and (max-width:480px) {
+
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position:static;
+
+    }
+    nav li{
+        margin: 0px 0 0 3px; 
+    }
+
+
+
+    .caja,
+    .principal,
+    .mapa-contenido,
+    .contenido-diferenciales,
+    .video,
+    .main-contacto {
+        width: auto;
+
+    }
+    .video{
+        height: auto;
+        
+    }
+    .video iframe{
+        width: 95%;
+        display: block;
+        margin: auto auto;
+        height: auto;
+    }
+
+    .lista-diferenciales,
+    .imagen-diferenciales {
+        width: 100%;
+        height: auto;
+    }
+    
+    form label {
+        text-align: center;
+
+    }
+
+    .input-padron {
+        margin: 1em auto 3em;
+        
+    }
+
+    fieldset+fieldset>label {
+        text-align: left;
+        margin: 5px 10px 10px;
+    }
+
+    select, .enviar {
+        width: 50%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .productos{
+        padding: 10%;
+    }
+
+    table, .productos li {
+        margin: 1em auto;
+    }
+    
+
+    .productos, .productos li{
+        width: auto;
+    }
+    
+
+
+
 }
